@@ -69,6 +69,8 @@ public class PlacesListAdapter extends RecyclerView.Adapter<PlacesListAdapter.Pl
     // mWords has not been updated (means initially, it's null, and we can't return null).
     @Override
     public int getItemCount() {
+
+        
         if (mPlacesList != null)
             return mPlacesList.size();
         else return 0;
