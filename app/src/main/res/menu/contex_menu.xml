@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setting_context_menu"
+        android:title="Setting" />
+    <item
+        android:id="@+id/favorites_context_menu"
+        android:title="Favorites" />
+    <item android:id="@+id/exit_context_menu"
+        android:title="Exit" />
+</menu>
